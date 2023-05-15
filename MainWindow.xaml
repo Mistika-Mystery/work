@@ -18,6 +18,7 @@
             <RowDefinition Height="132*"/>
         </Grid.RowDefinitions>
         <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="127,32,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Source="/git-menu-create-git-repository.png"/>
+        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="179,121,0,0" Grid.Row="1" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
