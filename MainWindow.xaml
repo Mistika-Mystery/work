@@ -5,20 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proba"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Незабудка" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="227*"/>
-            <ColumnDefinition Width="357*"/>
-            <ColumnDefinition Width="216*"/>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="353*"/>
+            <ColumnDefinition Width="26*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="111*"/>
-            <RowDefinition Height="191*"/>
-            <RowDefinition Height="132*"/>
+            <RowDefinition Height="43*"/>
+            <RowDefinition Height="355*"/>
+            <RowDefinition Height="36*"/>
         </Grid.RowDefinitions>
-        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="127,32,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Source="/git-menu-create-git-repository.png"/>
-        <Button Grid.Column="1" Content="Button" HorizontalAlignment="Left" Margin="179,121,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Grid.Column="1" Content="Учет просмотреных фильмов - не забубка" HorizontalAlignment="Left" Margin="208,7,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
