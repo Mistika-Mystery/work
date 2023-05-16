@@ -19,7 +19,9 @@
         </Grid.RowDefinitions>
         <Label Grid.Column="1" Content="Учет просмотреных фильмов - не забубка" HorizontalAlignment="Left" Margin="208,7,0,0" VerticalAlignment="Top"/>
         <ListBox Grid.Column="1" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}" HorizontalAlignment="Left"/>
-        <Label Grid.Column="1" Content="регистр" HorizontalAlignment="Left" Margin="489,124,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Grid.Column="1" Content="регистр" HorizontalAlignment="Left" Margin="212,32,0,0" Grid.Row="1" VerticalAlignment="Top" Height="52" Width="146"/>
+        <Label Grid.Column="1" Content="каталог" HorizontalAlignment="Left" Margin="208,84,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Grid.Column="1" Content="Поиск" HorizontalAlignment="Left" Margin="385,32,0,0" Grid.Row="1" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
