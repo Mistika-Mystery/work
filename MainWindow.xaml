@@ -18,6 +18,8 @@
             <RowDefinition Height="36*"/>
         </Grid.RowDefinitions>
         <Label Grid.Column="1" Content="Учет просмотреных фильмов - не забубка" HorizontalAlignment="Left" Margin="208,7,0,0" VerticalAlignment="Top"/>
+        <ListBox Grid.Column="1" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}" HorizontalAlignment="Left"/>
+        <Label Grid.Column="1" Content="регистр" HorizontalAlignment="Left" Margin="489,124,0,0" Grid.Row="1" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
