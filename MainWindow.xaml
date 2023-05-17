@@ -22,6 +22,7 @@
         <Label Grid.Column="1" Content="регистр" HorizontalAlignment="Left" Margin="212,32,0,0" Grid.Row="1" VerticalAlignment="Top" Height="52" Width="146"/>
         <Label Grid.Column="1" Content="каталог" HorizontalAlignment="Left" Margin="208,84,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <Label Grid.Column="1" Content="Поиск" HorizontalAlignment="Left" Margin="385,32,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Grid.Column="1" Content="Label" HorizontalAlignment="Left" Margin="429,155,0,0" Grid.Row="1" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
