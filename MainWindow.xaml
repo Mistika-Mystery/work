@@ -5,24 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proba"
         mc:Ignorable="d"
-        Title="Незабудка" Height="450" Width="800">
+        Title="Учет прсмотренных фильмов" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="21*"/>
-            <ColumnDefinition Width="353*"/>
-            <ColumnDefinition Width="26*"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="43*"/>
-            <RowDefinition Height="355*"/>
-            <RowDefinition Height="36*"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        <Label Grid.Column="1" Content="Учет просмотреных фильмов - не забубка" HorizontalAlignment="Left" Margin="208,7,0,0" VerticalAlignment="Top"/>
-        <ListBox Grid.Column="1" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}" HorizontalAlignment="Left"/>
-        <Label Grid.Column="1" Content="регистр" HorizontalAlignment="Left" Margin="212,32,0,0" Grid.Row="1" VerticalAlignment="Top" Height="52" Width="146"/>
-        <Label Grid.Column="1" Content="каталог" HorizontalAlignment="Left" Margin="208,84,0,0" Grid.Row="1" VerticalAlignment="Top"/>
-        <Label Grid.Column="1" Content="Поиск" HorizontalAlignment="Left" Margin="385,32,0,0" Grid.Row="1" VerticalAlignment="Top"/>
-        <Label Grid.Column="1" Content="Label" HorizontalAlignment="Left" Margin="429,155,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Grid.Column="1" Content="Учет просмотреных фильмов - не забубка" HorizontalAlignment="Left" Margin="268,7,0,0" VerticalAlignment="Top" Height="26" Width="243"/>
 
     </Grid>
 </Window>
