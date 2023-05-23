@@ -17,7 +17,8 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        <Label Grid.Column="1" Content="Добро Пожаловать!" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        
+        <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Images/logo.jpg" Width="150" Grid.Column="1"/>
 
     </Grid>
 </Window>
