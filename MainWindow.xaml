@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proba"
         mc:Ignorable="d"
-        Title="Учет прсмотренных фильмов" Height="450" Width="800">
+        Title="Учет Прсмотренных Фильмов" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
@@ -17,7 +17,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        <Label Grid.Column="1" Content="Учет просмотреных фильмов - не забубка" HorizontalAlignment="Left" Margin="268,7,0,0" VerticalAlignment="Top" Height="26" Width="243"/>
+        <Label Grid.Column="1" Content="Добро Пожаловать!" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
     </Grid>
 </Window>
